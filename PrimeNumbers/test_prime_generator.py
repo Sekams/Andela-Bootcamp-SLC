@@ -5,7 +5,7 @@ import prime_generator
 
 class TestPrimeGenerator(TestCase):
     def setUp(self):
-        self.prime_gen = prime_generator.PrimeGenerator(1)
+        self.prime_gen = prime_generator.PrimeGenerator(5)
 
     def test_is_integer(self):
         self.assertIsInstance(self.prime_gen.n, int, msg="Value not an integer")
