@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3eda1845-bbc7-494e-805c-17ccafd97b3f" name="Default" comment="" />
+    <list default="true" id="ef0274d2-d2a7-40cc-9a30-853188e37574" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,44 +12,24 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="word_count.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/word_count.py">
+      <file leaf-file-name="find_missing.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/find_missing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_words.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_words.py">
+      <file leaf-file-name="test_find_missing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_find_missing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="68" column="9" lean-forward="true" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+            <state relative-caret-position="102">
+              <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="remove_duplicates.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python36/Scripts/my_scripts/remove_duplicates.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="isogram_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python36/Scripts/my_scripts/isogram_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -59,9 +39,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test_word.py" />
-        <option value="$PROJECT_DIR$/test_words.py" />
-        <option value="$PROJECT_DIR$/word_count.py" />
+        <option value="$PROJECT_DIR$/test_find_missing.py" />
+        <option value="$PROJECT_DIR$/find_missing.py" />
       </list>
     </option>
   </component>
@@ -86,27 +65,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WordCount" />
+              <option name="myItemId" value="FindMissing" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WordCount" />
+              <option name="myItemId" value="FindMissing" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="FindMissing" sdk-home="C:\Python36\python.exe">
+        <option name="mySdkHome" value="C:\Python36\python.exe" />
+        <option name="myModuleName" value="FindMissing" />
+      </console-settings>
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -120,8 +107,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_words.TestWords">
-    <configuration default="false" name="word_count" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_find_missing.TestFindMissing">
+    <configuration default="false" name="find_missing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -132,14 +119,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="WordCount" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/word_count.py" />
+      <module name="FindMissing" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/find_missing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests for test_words.TestWords.test_word_occurance0" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests for test_find_missing.TestFindMissing" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -148,13 +135,13 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="WordCount" />
+      <module name="FindMissing" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_words.TestWords.test_word_occurance0&quot;" />
+      <option name="_new_target" value="&quot;test_find_missing.TestFindMissing&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests for test_words.TestWords.test_word_occurance2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests for test_find_missing.TestFindMissing.test_same_entries" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -163,39 +150,9 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="WordCount" />
+      <module name="FindMissing" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_words.TestWords.test_word_occurance2&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests for test_words.TestWords" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="WordCount" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_words.TestWords&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests for test_words.TestWords.test_word_occurance4" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="WordCount" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_words.TestWords.test_word_occurance4&quot;" />
+      <option name="_new_target" value="&quot;test_find_missing.TestFindMissing.test_same_entries&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method />
     </configuration>
@@ -210,7 +167,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="WordCount" />
+      <module name="FindMissing" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -226,7 +183,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="WordCount" />
+      <module name="FindMissing" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -238,7 +195,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="WordCount" />
+      <module name="FindMissing" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -257,26 +214,22 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="WordCount" />
+      <module name="FindMissing" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;.&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.word_count" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_words.TestWords.test_word_occurance0" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_words.TestWords.test_word_occurance2" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_words.TestWords" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_words.TestWords.test_word_occurance4" />
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python.find_missing" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_find_missing.TestFindMissing" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_find_missing.TestFindMissing.test_same_entries" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_words.TestWords" />
-        <item index="1" class="java.lang.String" itemvalue="Python.word_count" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_words.TestWords.test_word_occurance4" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_words.TestWords.test_word_occurance2" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_words.TestWords.test_word_occurance0" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_find_missing.TestFindMissing" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_find_missing.TestFindMissing.test_same_entries" />
+        <item index="2" class="java.lang.String" itemvalue="Python.find_missing" />
       </list>
     </recent_temporary>
   </component>
@@ -285,44 +238,23 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3eda1845-bbc7-494e-805c-17ccafd97b3f" name="Default" comment="" />
-      <created>1492553357822</created>
+      <changelist id="ef0274d2-d2a7-40cc-9a30-853188e37574" name="Default" comment="" />
+      <created>1492557567554</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1492553357822</updated>
+      <updated>1492557567554</updated>
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_words_TestWords - 2017.04.19 at 01h 46m 54s.xml">
-      <configuration name="Unittests for test_words.TestWords" configurationId="tests" />
+    <history-entry file="Unittests_for_test_find_missing_TestFindMissing - 2017.04.19 at 02h 40m 55s.xml">
+      <configuration name="Unittests for test_find_missing.TestFindMissing" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_words_TestWords - 2017.04.19 at 02h 05m 38s.xml">
-      <configuration name="Unittests for test_words.TestWords" configurationId="tests" />
+    <history-entry file="Unittests_for_test_find_missing_TestFindMissing - 2017.04.19 at 02h 41m 56s.xml">
+      <configuration name="Unittests for test_find_missing.TestFindMissing" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_words_TestWords - 2017.04.19 at 02h 08m 24s.xml">
-      <configuration name="Unittests for test_words.TestWords" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_words_TestWords_test_word_occurance0 - 2017.04.19 at 01h 46m 06s.xml">
-      <configuration name="Unittests for test_words.TestWords.test_word_occurance0" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_words_TestWords_test_word_occurance1 - 2017.04.19 at 01h 45m 23s.xml">
-      <configuration name="Unittests for test_words.TestWords.test_word_occurance1" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_words_TestWords_test_word_occurance1 - 2017.04.19 at 01h 45m 35s.xml">
-      <configuration name="Unittests for test_words.TestWords.test_word_occurance1" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_words_TestWords_test_word_occurance1 - 2017.04.19 at 01h 45m 50s.xml">
-      <configuration name="Unittests for test_words.TestWords.test_word_occurance1" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_words_TestWords_test_word_occurance2 - 2017.04.19 at 01h 46m 27s.xml">
-      <configuration name="Unittests for test_words.TestWords.test_word_occurance2" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_words_TestWords_test_word_occurance4 - 2017.04.19 at 02h 04m 41s.xml">
-      <configuration name="Unittests for test_words.TestWords.test_word_occurance4" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_words_TestWords_test_word_occurance4 - 2017.04.19 at 02h 05m 06s.xml">
-      <configuration name="Unittests for test_words.TestWords.test_word_occurance4" configurationId="tests" />
+    <history-entry file="Unittests_for_test_find_missing_TestFindMissing_test_same_entries - 2017.04.19 at 02h 41m 36s.xml">
+      <configuration name="Unittests for test_find_missing.TestFindMissing.test_same_entries" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -332,9 +264,9 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -357,44 +289,20 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python36/Scripts/my_scripts/remove_duplicates.py">
+    <entry file="file://$PROJECT_DIR$/test_find_missing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python36/Scripts/my_scripts/isogram_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_word.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="82" column="9" lean-forward="false" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_words.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="68" column="9" lean-forward="true" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+        <state relative-caret-position="102">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/word_count.py">
+    <entry file="file://$PROJECT_DIR$/find_missing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
