@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ca05e5d-46e5-41e0-aafa-5aeafb7a76ea" name="Default" comment="" />
+    <list default="true" id="cf5e640e-9f7c-4d62-9c7a-0860ad3f7a2c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,21 +12,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="fizz_buzz.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fizz_buzz.py">
+      <file leaf-file-name="car_class.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/car_class.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="68">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_fizz_buzz.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_fizz_buzz.py">
+      <file leaf-file-name="test_car.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_car.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="22" column="87" lean-forward="false" selection-start-line="22" selection-start-column="87" selection-end-line="22" selection-end-column="87" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -38,20 +38,17 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fizz_buzz</find>
+      <find>Car</find>
     </findStrings>
     <replaceStrings>
-      <replace>fizz_buzz.fizz_buzz</replace>
+      <replace>car_class.Car</replace>
     </replaceStrings>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test_fizz_buzz.py" />
-        <option value="$PROJECT_DIR$/fizz_buzz.py" />
+        <option value="$PROJECT_DIR$/test_car.py" />
+        <option value="$PROJECT_DIR$/car_class.py" />
       </list>
     </option>
   </component>
@@ -61,7 +58,6 @@
     <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -77,26 +73,27 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FizzBuzz" />
+              <option name="myItemId" value="CarClass" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FizzBuzz" />
+              <option name="myItemId" value="CarClass" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -110,26 +107,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_fizz_buzz.TestFizzBuzz">
-    <configuration default="false" name="fizz_buzz" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_car.TestCar.test_object_type">
+    <configuration default="false" name="Unittests for test_car.TestCar" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="C:\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FizzBuzz" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fizz_buzz.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
+      <module name="CarClass" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_car.TestCar&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests for test_fizz_buzz.TestFizzBuzz" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests for test_car.TestCar.test_car_doors" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -138,9 +133,54 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FizzBuzz" />
+      <module name="CarClass" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_fizz_buzz.TestFizzBuzz&quot;" />
+      <option name="_new_target" value="&quot;test_car.TestCar.test_car_doors&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests for test_car.TestCar.test_car_wheels" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CarClass" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_car.TestCar.test_car_wheels&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests for test_car.TestCar.test_car_instance" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CarClass" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_car.TestCar.test_car_instance&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests for test_car.TestCar.test_object_type" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CarClass" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_car.TestCar.test_object_type&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method />
     </configuration>
@@ -155,7 +195,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FizzBuzz" />
+      <module name="CarClass" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -171,7 +211,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FizzBuzz" />
+      <module name="CarClass" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -183,7 +223,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FizzBuzz" />
+      <module name="CarClass" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -202,20 +242,26 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FizzBuzz" />
+      <module name="CarClass" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;.&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.fizz_buzz" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_fizz_buzz.TestFizzBuzz" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_car.TestCar" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_car.TestCar.test_car_doors" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_car.TestCar.test_car_wheels" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_car.TestCar.test_car_instance" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_car.TestCar.test_object_type" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_fizz_buzz.TestFizzBuzz" />
-        <item index="1" class="java.lang.String" itemvalue="Python.fizz_buzz" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_car.TestCar.test_object_type" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_car.TestCar" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_car.TestCar.test_car_instance" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for test_car.TestCar.test_car_wheels" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for test_car.TestCar.test_car_doors" />
       </list>
     </recent_temporary>
   </component>
@@ -224,34 +270,55 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2ca05e5d-46e5-41e0-aafa-5aeafb7a76ea" name="Default" comment="" />
-      <created>1492515802609</created>
+      <changelist id="cf5e640e-9f7c-4d62-9c7a-0860ad3f7a2c" name="Default" comment="" />
+      <created>1492517726310</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1492515802609</updated>
+      <updated>1492517726310</updated>
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_fizz_buzz_TestFizzBuzz - 2017.04.18 at 14h 57m 00s.xml">
-      <configuration name="Unittests for test_fizz_buzz.TestFizzBuzz" configurationId="tests" />
+    <history-entry file="Unittests_for_test_car_TestCar - 2017.04.18 at 16h 23m 01s.xml">
+      <configuration name="Unittests for test_car.TestCar" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_fizz_buzz_TestFizzBuzz - 2017.04.18 at 14h 58m 42s.xml">
-      <configuration name="Unittests for test_fizz_buzz.TestFizzBuzz" configurationId="tests" />
+    <history-entry file="Unittests_for_test_car_TestCar - 2017.04.18 at 16h 31m 41s.xml">
+      <configuration name="Unittests for test_car.TestCar" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_fizz_buzz_TestFizzBuzz - 2017.04.18 at 15h 00m 19s.xml">
-      <configuration name="Unittests for test_fizz_buzz.TestFizzBuzz" configurationId="tests" />
+    <history-entry file="Unittests_for_test_car_TestCar - 2017.04.18 at 16h 32m 02s.xml">
+      <configuration name="Unittests for test_car.TestCar" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_car_TestCar - 2017.04.18 at 16h 33m 21s.xml">
+      <configuration name="Unittests for test_car.TestCar" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_car_TestCar - 2017.04.18 at 16h 33m 37s.xml">
+      <configuration name="Unittests for test_car.TestCar" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_car_TestCar_test_car_instance - 2017.04.18 at 16h 22m 39s.xml">
+      <configuration name="Unittests for test_car.TestCar.test_car_instance" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_car_TestCar_test_car_instance - 2017.04.18 at 16h 26m 36s.xml">
+      <configuration name="Unittests for test_car.TestCar.test_car_instance" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_car_TestCar_test_car_instance - 2017.04.18 at 16h 29m 59s.xml">
+      <configuration name="Unittests for test_car.TestCar.test_car_instance" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_car_TestCar_test_object_type - 2017.04.18 at 16h 29m 31s.xml">
+      <configuration name="Unittests for test_car.TestCar.test_object_type" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_car_TestCar_test_object_type - 2017.04.18 at 16h 35m 30s.xml">
+      <configuration name="Unittests for test_car.TestCar.test_object_type" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -275,20 +342,20 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_fizz_buzz.py">
+    <entry file="file://$PROJECT_DIR$/test_car.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="22" column="87" lean-forward="false" selection-start-line="22" selection-start-column="87" selection-end-line="22" selection-end-column="87" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fizz_buzz.py">
+    <entry file="file://$PROJECT_DIR$/car_class.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
