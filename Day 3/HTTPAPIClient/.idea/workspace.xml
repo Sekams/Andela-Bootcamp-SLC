@@ -1,55 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="587b1c14-f07c-4059-a963-0a8e0b1ecf22" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../CarClass/.idea/CarClass.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../CarClass/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../CarClass/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../CarClass/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../CarClass/car_class.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../CarClass/test_car.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../DataTypes/.idea/DataTypes.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../DataTypes/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../DataTypes/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../DataTypes/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../DataTypes/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../DataTypes/data_type.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../DataTypes/test_data_type.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FindMaxMin/.idea/FindMaxMin.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FindMaxMin/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FindMaxMin/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FindMaxMin/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FindMaxMin/find_max_min.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FindMaxMin/test_find_max_min.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FindMissing/.idea/FindMissing.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FindMissing/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FindMissing/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FindMissing/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FindMissing/find_missing.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FindMissing/test_find_missing.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FizzBuzz/.idea/FizzBuzz.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FizzBuzz/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FizzBuzz/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FizzBuzz/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FizzBuzz/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FizzBuzz/fizz_buzz.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../FizzBuzz/test_fizz_buzz.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../OOP/ShoppingCart.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../PrimeNumbers/.idea/PrimeNumbers.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../PrimeNumbers/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../PrimeNumbers/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../PrimeNumbers/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../PrimeNumbers/prime_generator.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../PrimeNumbers/test_prime_generator.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../WordCount/.idea/WordCount.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../WordCount/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../WordCount/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../WordCount/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../WordCount/test_words.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../WordCount/word_count.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../make_breakfast.py" afterPath="" />
-    </list>
+    <list default="true" id="587b1c14-f07c-4059-a963-0a8e0b1ecf22" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -260,7 +212,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24812031" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
