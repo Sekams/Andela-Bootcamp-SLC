@@ -1,6 +1,6 @@
 class ShoppingCart(object):
     """ 
-        A shopping cart class illustration abstraction 
+        A shopping cart class illustrating abstraction and encapsulation 
     """
 
     def __init__(self):
