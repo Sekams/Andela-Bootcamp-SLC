@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef0274d2-d2a7-40cc-9a30-853188e37574" name="Default" comment="" />
+    <list default="true" id="3c745b0b-f6cf-4bca-a973-b17677a3536d" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,21 +12,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="find_missing.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/find_missing.py">
+      <file leaf-file-name="find_max_min.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/find_max_min.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_find_missing.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_find_missing.py">
+      <file leaf-file-name="test_find_max_min.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_find_max_min.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            <state relative-caret-position="153">
+              <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="54" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -39,8 +39,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test_find_missing.py" />
-        <option value="$PROJECT_DIR$/find_missing.py" />
+        <option value="$PROJECT_DIR$/test_find_max_min.py" />
+        <option value="$PROJECT_DIR$/find_max_min.py" />
       </list>
     </option>
   </component>
@@ -69,31 +69,23 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FindMissing" />
+              <option name="myItemId" value="FindMaxMin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="FindMissing" />
+              <option name="myItemId" value="FindMaxMin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
-  <component name="PyConsoleOptionsProvider">
-    <option name="myPythonConsoleState">
-      <console-settings module-name="FindMissing" sdk-home="C:\Python36\python.exe">
-        <option name="mySdkHome" value="C:\Python36\python.exe" />
-        <option name="myModuleName" value="FindMissing" />
-      </console-settings>
-    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -107,8 +99,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_find_missing.TestFindMissing">
-    <configuration default="false" name="find_missing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_find_max_min.TestFindMaxMin">
+    <configuration default="false" name="Unittests for test_find_max_min.TestFindMaxMin" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="FindMaxMin" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_find_max_min.TestFindMaxMin&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="find_max_min" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -119,14 +126,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FindMissing" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/find_missing.py" />
+      <module name="FindMaxMin" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/find_max_min.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests for test_find_missing.TestFindMissing" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests for test_find_max_min.TestFindMaxMin.test_find_max_min_one" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -135,24 +142,9 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FindMissing" />
+      <module name="FindMaxMin" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_find_missing.TestFindMissing&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests for test_find_missing.TestFindMissing.test_same_entries" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FindMissing" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_find_missing.TestFindMissing.test_same_entries&quot;" />
+      <option name="_new_target" value="&quot;test_find_max_min.TestFindMaxMin.test_find_max_min_one&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method />
     </configuration>
@@ -167,7 +159,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FindMissing" />
+      <module name="FindMaxMin" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -183,7 +175,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FindMissing" />
+      <module name="FindMaxMin" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -195,7 +187,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FindMissing" />
+      <module name="FindMaxMin" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -214,22 +206,22 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="FindMissing" />
+      <module name="FindMaxMin" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;.&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
     <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Python.find_missing" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_find_missing.TestFindMissing" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_find_missing.TestFindMissing.test_same_entries" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_find_max_min.TestFindMaxMin" />
+      <item index="1" class="java.lang.String" itemvalue="Python.find_max_min" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_find_max_min.TestFindMaxMin.test_find_max_min_one" />
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_find_missing.TestFindMissing" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for test_find_missing.TestFindMissing.test_same_entries" />
-        <item index="2" class="java.lang.String" itemvalue="Python.find_missing" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for test_find_max_min.TestFindMaxMin" />
+        <item index="1" class="java.lang.String" itemvalue="Python.find_max_min" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_find_max_min.TestFindMaxMin.test_find_max_min_one" />
       </list>
     </recent_temporary>
   </component>
@@ -238,23 +230,26 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ef0274d2-d2a7-40cc-9a30-853188e37574" name="Default" comment="" />
-      <created>1492557567554</created>
+      <changelist id="3c745b0b-f6cf-4bca-a973-b17677a3536d" name="Default" comment="" />
+      <created>1492559242565</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1492557567554</updated>
+      <updated>1492559242565</updated>
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_find_missing_TestFindMissing - 2017.04.19 at 02h 40m 55s.xml">
-      <configuration name="Unittests for test_find_missing.TestFindMissing" configurationId="tests" />
+    <history-entry file="Unittests_for_test_find_max_min_TestFindMaxMin - 2017.04.19 at 03h 00m 27s.xml">
+      <configuration name="Unittests for test_find_max_min.TestFindMaxMin" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_find_missing_TestFindMissing - 2017.04.19 at 02h 41m 56s.xml">
-      <configuration name="Unittests for test_find_missing.TestFindMissing" configurationId="tests" />
+    <history-entry file="Unittests_for_test_find_max_min_TestFindMaxMin - 2017.04.19 at 03h 05m 07s.xml">
+      <configuration name="Unittests for test_find_max_min.TestFindMaxMin" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_find_missing_TestFindMissing_test_same_entries - 2017.04.19 at 02h 41m 36s.xml">
-      <configuration name="Unittests for test_find_missing.TestFindMissing.test_same_entries" configurationId="tests" />
+    <history-entry file="Unittests_for_test_find_max_min_TestFindMaxMin - 2017.04.19 at 03h 07m 48s.xml">
+      <configuration name="Unittests for test_find_max_min.TestFindMaxMin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_find_max_min_TestFindMaxMin_test_find_max_min_one - 2017.04.19 at 03h 05m 00s.xml">
+      <configuration name="Unittests for test_find_max_min.TestFindMaxMin.test_find_max_min_one" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -264,7 +259,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32898173" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -289,21 +284,21 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_find_missing.py">
+    <entry file="file://$PROJECT_DIR$/find_max_min.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/find_missing.py">
+    <entry file="file://$PROJECT_DIR$/test_find_max_min.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="153">
+          <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
