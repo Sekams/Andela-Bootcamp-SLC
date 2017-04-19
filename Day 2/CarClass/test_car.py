@@ -1,8 +1,11 @@
 from unittest import TestCase
 import car_class
 
+
 class TestCar(TestCase):
-    """docstring for CarClassTest"""
+    """
+        Test cases for the Car class
+    """
 
     # Testing whether the class takes a single argument
     def test_car_instance(self):

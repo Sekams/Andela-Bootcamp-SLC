@@ -1,6 +1,7 @@
 def prime_generator(argument):
     """ 
-        The Function takes O(N^2) seconds where N is the number of inputs
+        This function generates prime numbers from 0 to the argument and takes O(N^2) seconds to run where N is the 
+        number of inputs
     """
     if isinstance(argument, int):
         result = []

@@ -4,7 +4,7 @@ import fizz_buzz
 
 class TestFizzBuzz(TestCase):
     """
-        Test Cases for FizzBuzz function
+        Test Cases for the fizz_buzz function
     """
     # Testing if function returns 'Fizz' for input 3
     def test_fizz_1(self):

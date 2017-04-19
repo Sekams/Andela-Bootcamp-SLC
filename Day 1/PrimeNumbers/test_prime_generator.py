@@ -3,6 +3,10 @@ import prime_generator
 
 
 class TestPrimeGenerator(TestCase):
+    """ 
+        Test cases for the prime_generator function
+    """
+
     # Test if output is None for a string argument
     def test_is_integer(self):
         self.assertEqual(None, prime_generator.prime_generator("abc"), msg="Output should be None for string argument")

@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="587b1c14-f07c-4059-a963-0a8e0b1ecf22" name="Default" comment="" />
+    <list default="true" id="587b1c14-f07c-4059-a963-0a8e0b1ecf22" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Day 1/PrimeNumbers/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Day 1/PrimeNumbers/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Day 1/PrimeNumbers/prime_generator.py" afterPath="$PROJECT_DIR$/../../Day 1/PrimeNumbers/prime_generator.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Day 1/PrimeNumbers/test_prime_generator.py" afterPath="$PROJECT_DIR$/../../Day 1/PrimeNumbers/test_prime_generator.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Day 2/CarClass/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Day 2/CarClass/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Day 2/CarClass/test_car.py" afterPath="$PROJECT_DIR$/../../Day 2/CarClass/test_car.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Day 2/DataTypes/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Day 2/DataTypes/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Day 2/DataTypes/data_type.py" afterPath="$PROJECT_DIR$/../../Day 2/DataTypes/data_type.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Day 2/DataTypes/test_data_type.py" afterPath="$PROJECT_DIR$/../../Day 2/DataTypes/test_data_type.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Day 2/FizzBuzz/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Day 2/FizzBuzz/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Day 2/FizzBuzz/fizz_buzz.py" afterPath="$PROJECT_DIR$/../../Day 2/FizzBuzz/fizz_buzz.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Day 2/FizzBuzz/test_fizz_buzz.py" afterPath="$PROJECT_DIR$/../../Day 2/FizzBuzz/test_fizz_buzz.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Day 2/OOP/ShoppingCart.py" afterPath="$PROJECT_DIR$/../../Day 2/OOP/ShoppingCart.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FindMaxMin/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../FindMaxMin/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FindMaxMin/find_max_min.py" afterPath="$PROJECT_DIR$/../FindMaxMin/find_max_min.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FindMaxMin/test_find_max_min.py" afterPath="$PROJECT_DIR$/../FindMaxMin/test_find_max_min.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WordCount/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../WordCount/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WordCount/test_words.py" afterPath="$PROJECT_DIR$/../WordCount/test_words.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WordCount/word_count.py" afterPath="$PROJECT_DIR$/../WordCount/word_count.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +78,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -237,6 +256,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/http_api_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/http_api_client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">

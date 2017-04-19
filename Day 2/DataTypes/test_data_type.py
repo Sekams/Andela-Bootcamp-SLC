@@ -3,6 +3,10 @@ import data_type
 
 
 class TestDataType(TestCase):
+    """
+        Test cases for the data_type function
+    """
+
     # Test if the result for input None is 'no value'
     def test_none_type(self):
         self.assertEqual('no value', data_type.data_type(None))

@@ -1,4 +1,14 @@
 def data_type(argument):
+    """
+        This function takes one argument. It compares and returns results, based on the argument supplied to the it. 
+        - For string input, it returns its length.
+        - For None input, it returns the string 'no value'
+        - For boolean input, it returns the boolean
+        - For integer input, it returns a string showing how it compares to hundred e.g. For 67 it returns 
+          'less than 100' and for 4034 it returns 'more than 100' and for 100 it returns 'equal to 100'
+        - For list input, it returns the 3rd item, or None if it doesn't exist
+    """
+
     if isinstance(argument, str):
         return len(argument)
     elif argument is None:

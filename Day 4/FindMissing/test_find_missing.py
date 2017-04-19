@@ -1,13 +1,18 @@
 from unittest import TestCase
 from find_missing import find_missing
 
-class TestFindMissing(TestCase):
-    """docstring for MissingNumberTest"""
 
+class TestFindMissing(TestCase):
+    """
+        Test cases for the find_missing function
+    """
+
+    # Test if the function returns 0 for empty list inputs
     def test_empty_list(self):
         self.assertEqual(0, find_missing([], []),
                          msg='should return 0 for empty list')
 
+    # Test if the function returns 0 for similar list inputs
     def test_same_entries(self):
         list1 = find_missing([2], [2])
         list2 = find_missing([4], [4])
@@ -16,6 +21,7 @@ class TestFindMissing(TestCase):
                              [list1, list2, list3],
                              msg='should return 0 for lists with the same entries')
 
+    # Test if the function returns the missing number for lists with similar entries and a missing number
     def test_missing_entries(self):
         list1 = find_missing([1, 2], [1, 2, 5])
         list2 = find_missing([4, 6, 8], [4, 6, 8, 10])
