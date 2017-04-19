@@ -8,5 +8,3 @@ def fizz_buzz(argument):
             return 'Buzz'
         else:
             return argument
-
-print(fizz_buzz(24))

@@ -1,25 +1,25 @@
 from unittest import TestCase
-
 import prime_generator
 
 
 class TestPrimeGenerator(TestCase):
-    def setUp(self):
-        self.prime_gen = prime_generator.PrimeGenerator(5)
-
+    # Test if output is None for a string argument
     def test_is_integer(self):
-        self.assertIsInstance(self.prime_gen.n, int, msg="Value not an integer")
+        self.assertEqual(None, prime_generator.prime_generator("abc"), msg="Output should be None for string argument")
 
+    # Test if output contains the argument given it is a prime number
     def test_not_negative(self):
-        if isinstance(self.prime_gen.n, int):
-            self.assertGreater(self.prime_gen.n, 0, msg="Value not positive integer")
+        self.assertTrue(5 in prime_generator.prime_generator(5), msg="Output does not contain last prime number 5")
 
-    def test_is_greater_than_or_equal_to_two(self):
-        if isinstance(self.prime_gen.n, int):
-            self.assertGreater(self.prime_gen.n, 2, msg="Value not in the prime number scope")
+    # Test if output contains the integer 1 which is not a prime number
+    def test_does_output_contain_one(self):
+        self.assertFalse(1 in prime_generator.prime_generator(5), msg="Output contains non prime number 1")
 
+    # Test if output contains only integers
     def test_is_output_a_list_of_integers(self):
-        self.assertTrue(any(isinstance(x, int) for x in self.prime_gen.prime_generator()), msg="Output is not a list of integers")
+        self.assertTrue(any(isinstance(x, int) for x in prime_generator.prime_generator(5)),
+                        msg="Output is not a list of integers")
 
+    # Test if output is a list
     def test_is_output_a_list(self):
-        self.assertTrue(isinstance(self.prime_gen.prime_generator(), list), msg="Output is not a list")
+        self.assertTrue(isinstance(prime_generator.prime_generator(5), list), msg="Output is not a list")

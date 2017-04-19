@@ -17,5 +17,3 @@ def data_type(argument):
             return argument[2]
         else:
             return None 
-
-print(data_type(0))  	

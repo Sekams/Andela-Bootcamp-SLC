@@ -1,24 +1,18 @@
-class PrimeGenerator(object):
-    def __init__(self, n):
-        self.n = n
-
-    def prime_generator(self):
-
-        """ The Function takes O(N^2)"""
+def prime_generator(argument):
+    """ 
+        The Function takes O(N^2) seconds where N is the number of inputs
+    """
+    if isinstance(argument, int):
         result = []
-        n = self.n
-        if isinstance(n, int):
-            for x in range(0, n + 1):
-                if x < 2:
-                    r = 0
+        for number in range(0, argument + 1):
+            if number > 1:
+                factor = 2
+                while factor < number:
+                    if number % factor == 0:
+                        break
+                    factor += 1
                 else:
-                    i = 2
-                    while i < x:
-                        if x % i == 0:
-                            break
-                        i = i + 1
-                    else:
-                        result.append(x)
-
+                    result.append(number)
         return result
-
+    else:
+        return None
