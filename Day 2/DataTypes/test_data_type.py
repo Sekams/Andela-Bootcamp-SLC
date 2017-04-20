@@ -1,8 +1,8 @@
-from unittest import TestCase
+import unittest
 import data_type
 
 
-class TestDataType(TestCase):
+class TestDataType(unittest.TestCase):
     """
         Test cases for the data_type function
     """
@@ -34,3 +34,7 @@ class TestDataType(TestCase):
     # Test if output is the length of the string that is in the input
     def test_str_type(self):
         self.assertEqual(6, data_type.data_type('andela'))
+
+
+if __name__ == "__main__":
+    unittest.main()

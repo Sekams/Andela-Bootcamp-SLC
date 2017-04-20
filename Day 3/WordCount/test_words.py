@@ -1,8 +1,8 @@
-from unittest import TestCase
+import unittest
 from word_count import words
 
 
-class TestWords(TestCase):
+class TestWords(unittest.TestCase):
     """
        Test cases for the words function
     """
@@ -92,3 +92,7 @@ class TestWords(TestCase):
             words('hello  world'),
             msg='should count multiple spaces as one'
         )
+
+
+if __name__ == "__main__":
+    unittest.main()

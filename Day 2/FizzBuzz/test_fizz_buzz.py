@@ -1,11 +1,12 @@
-from unittest import TestCase
+import unittest
 import fizz_buzz
 
 
-class TestFizzBuzz(TestCase):
+class TestFizzBuzz(unittest.TestCase):
     """
         Test Cases for the fizz_buzz function
     """
+
     # Testing if function returns 'Fizz' for input 3
     def test_fizz_1(self):
         self.assertEqual(fizz_buzz.fizz_buzz(3), 'Fizz', msg='should return `Fizz` for number divisible by 3')
@@ -24,16 +25,24 @@ class TestFizzBuzz(TestCase):
 
     # Testing if function returns 'FizzBuzz' for input 15
     def test_fizz_buzz_1(self):
-        self.assertEqual(fizz_buzz.fizz_buzz(15), 'FizzBuzz', msg='should return `FizzBuzz` for number divisible by 3 and 5')
+        self.assertEqual(fizz_buzz.fizz_buzz(15), 'FizzBuzz',
+                         msg='should return `FizzBuzz` for number divisible by 3 and 5')
 
     # Testing if function returns 'FizzBuzz' for input 105
     def test_fizz_buzz_2(self):
-        self.assertEqual(fizz_buzz.fizz_buzz(105), 'FizzBuzz', msg='should return `FizzBuzz` for number divisible by 3 and 5')
+        self.assertEqual(fizz_buzz.fizz_buzz(105), 'FizzBuzz',
+                         msg='should return `FizzBuzz` for number divisible by 3 and 5')
 
     # Testing if function returns 101 for input 101 that is neither divisible by 3 or 5
     def test_indivisible_1(self):
-        self.assertEqual(fizz_buzz.fizz_buzz(101), 101, msg='should return the number if its in divisible by neither 3 or 5')
+        self.assertEqual(fizz_buzz.fizz_buzz(101), 101,
+                         msg='should return the number if its in divisible by neither 3 or 5')
 
     # Testing if function returns 8 for input 8 that is neither divisible by 3 or 5
     def test_indivisible_2(self):
-        self.assertEqual(fizz_buzz.fizz_buzz(8), 8, msg='should return the number if its in divisible by neither 3 or 5')
+        self.assertEqual(fizz_buzz.fizz_buzz(8), 8,
+                         msg='should return the number if its in divisible by neither 3 or 5')
+
+
+if __name__ == "__main__":
+    unittest.main()

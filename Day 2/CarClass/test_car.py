@@ -1,8 +1,8 @@
-from unittest import TestCase
+import unittest
 import car_class
 
 
-class TestCar(TestCase):
+class TestCar(unittest.TestCase):
     """
         Test cases for the Car class
     """
@@ -92,3 +92,7 @@ class TestCar(TestCase):
         self.assertListEqual([True, True, man.speed],
                              [moving_man_instance, moving_man_type, moving_man.speed],
                              msg='The car drive function should return the instance of the Car class')
+
+
+if __name__ == "__main__":
+    unittest.main()

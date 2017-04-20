@@ -1,8 +1,8 @@
-from unittest import TestCase
+import unittest
 from find_missing import find_missing
 
 
-class TestFindMissing(TestCase):
+class TestFindMissing(unittest.TestCase):
     """
         Test cases for the find_missing function
     """
@@ -29,3 +29,7 @@ class TestFindMissing(TestCase):
         self.assertListEqual([5, 10, 1],
                              [list1, list2, list3],
                              msg='should return the missing number for lists with similar entries and a missing number')
+
+
+if __name__ == "__main__":
+    unittest.main()

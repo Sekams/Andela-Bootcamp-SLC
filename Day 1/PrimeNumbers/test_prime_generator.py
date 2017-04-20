@@ -1,8 +1,8 @@
-from unittest import TestCase
+import unittest
 import prime_generator
 
 
-class TestPrimeGenerator(TestCase):
+class TestPrimeGenerator(unittest.TestCase):
     """ 
         Test cases for the prime_generator function
     """
@@ -27,3 +27,7 @@ class TestPrimeGenerator(TestCase):
     # Test if output is a list
     def test_is_output_a_list(self):
         self.assertTrue(isinstance(prime_generator.prime_generator(5), list), msg="Output is not a list")
+
+
+if __name__ == "__main__":
+    unittest.main()

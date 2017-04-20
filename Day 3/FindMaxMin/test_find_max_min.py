@@ -1,8 +1,8 @@
-from unittest import TestCase
+import unittest
 from find_max_min import find_max_min
 
 
-class TestFindMaxMin(TestCase):
+class TestFindMaxMin(unittest.TestCase):
     """
         Test cases for find_max_min function
     """
@@ -35,4 +35,9 @@ class TestFindMaxMin(TestCase):
     def test_find_max_min_identity(self):
         self.assertListEqual([4],
                              find_max_min([4, 4, 4, 4]),
-                             msg='Return the number of elements in the list in a new list if the `min` and `max` are equal')
+                             msg='Return the number of elements in the list in a new list if the `min` and `max` '
+                                 'are equal')
+
+
+if __name__ == "__main__":
+    unittest.main()
